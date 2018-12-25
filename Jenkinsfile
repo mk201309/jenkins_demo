@@ -8,9 +8,9 @@ pipeline {
             echo 'Building..'
           }
         }
-        stage('ll') {
+        stage('pwd') {
           steps {
-            sh 'll'
+            sh 'pwd'
           }
         }
       }
